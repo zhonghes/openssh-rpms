@@ -136,6 +136,7 @@ For more details, see file `docker.README.md`
 This package provide following options in `/etc/ssh/sshd_config` to work like triditional sshd.
 
 ```
+HostkeyAlgorithms +ssh-rsa
 PubkeyAcceptedAlgorithms +ssh-rsa
 PermitRootLogin yes
 PasswordAuthentication yes
